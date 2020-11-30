@@ -1,6 +1,6 @@
 <img src="banner.png" alt="drawing" width="700"/>
 
-[marketplace.visualstudio/ark-ng-extensions-pack](https://marketplace.visualstudio.com/items?itemName=AlvaroAlmendros.ark-react-extensions-pack)
+[marketplace.visualstudio/ark-ng-extensions-pack](https://marketplace.visualstudio.com/items?itemName=AlvaroAlmendros.ark-ng-extensions-pack)
 
 # Ark's Angular Extensions Pack
 
