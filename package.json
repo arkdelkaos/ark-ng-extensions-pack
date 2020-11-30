@@ -2,7 +2,7 @@
     "name": "ark-ng-extensions-pack",
     "displayName": "Ark's Angular Extensions Pack",
     "description": "Conjunto de extensiones para proyectos en Angular",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "AlvaroAlmendros",
     "repository": {
         "type": "git",
