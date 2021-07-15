@@ -2,6 +2,8 @@
 
 [marketplace.visualstudio/ark-ng-extensions-pack](https://marketplace.visualstudio.com/items?itemName=AlvaroAlmendros.ark-ng-extensions-pack)
 
+> All common extension between the different packs has been moved to [Ark's Common Extensions Pack](https://github.com/arkdelkaos/ark-common-extensions-pack)
+
 # Ark's Angular Extensions Pack
 
 - [Ark's Angular Extensions Pack](#arks-angular-extensions-pack)
@@ -11,7 +13,6 @@
   - [Included Extensions](#included-extensions)
     - [Core](#core)
     - [Linting and Syntax highlighting](#linting-and-syntax-highlighting)
-    - [Live Share](#live-share)
     - [Tricks](#tricks)
     - [UI](#ui)
   - [Configuration](#configuration)
@@ -52,13 +53,6 @@ The ones that are included but were already installed will work as the were, but
 
 - 🔒 **Angular Language Service**: El todo en uno imprescible para Angular.
 - 🔒 **TSLint**: Deprecated in favor of ESLint, but still in use at our ng9.
-- 🔥 **Project Manager**: To switch between projects/workspaces easily, and take advantage of the automatic extension switch by workspace.
-- **Docker**: All the Docker related tools you may need, from management to syntax highlighting.
-- **GitLens**: The git swissknife, with blame
-- **Jira and Bitbucket (Official)**: To interact with Jira without having to switch to the app/web
-- ⚙️ **Path Intellisense**: For VSC to be able to autocompletes filenames
-- ⚙️ **Visual Studio IntelliCode**: AI assisted code completions, official by Microsoft.
-- ❌ **TabNine**: ~~AI assisted code completions, will predict the next “token” in the programming sequence based on patterns found in the previous code samples from the same user.~~ This extensions opens a lot of comunication processes, even when disabled. It's kind of creepy, so I've stop recommending it until I verify this behaviour.
 
 ### Linting and Syntax highlighting
 
@@ -67,55 +61,19 @@ The ones that are included but were already installed will work as the were, but
 - 🔒 **SCSS IntelliSense**: The official SCSS intellisense for VSCode.
 - 🔒 **Stylelint**: The stylelint client for VSCode.
 - 🔥 **LintLens**: When editing `.eslintrc` rules, will tell what every rule do and if it's configured correctly.
-- 🔥 **Code Spell Checker**: Multi language spell checker.
-- **DotENV**: DotENV syntax support.
 - **Headwind**: CSS Class sorter.
-- **Jenkinsfile Support**: Jenkinsfile syntax
-- **JSON Tools**: JSON prettify and minify on demand.
-- **Markdown all-in-one**: Markdown swissknife, with preview, table of contents...
-- **Markdown Checkbox**: Adds checkbox/task support like at Github
-- **Markdownlint**: Linting and style checking for md files.
-- **Rainbow CSV**: Easier CSV edit by adding colors per column.
 - **SCSS Everywhere**: BEM helper that will recommend the current BEM prefix when needed.
-- **SVG**: All SVG needs in one extension! SVG Coding, Minify, Pretty, Preview...
-- **YAML**: Autocomplete, syntax _(with Kubernetes syntax support)_ and validation
-
-### Live Share
-
-- 🔥 **Live Share**: To edit and debug code coop. A must for remote working.
-- **Live Share Audio**: 100% integrated into live share and free! Audio for your live share sessions.
 
 ### Tricks
 
-- 🔥 **change-case**: A lot of tools to switch case style (camel, kebab, upper...)
-- 🔥 **Open Matching Files**: Open all files that match any given string or glob
-- 🔥 **Sort Lines**: Select a few lines and this tool will sort it alphabetically
-- 🔥 **Toggle Quotes**: Select a string and with `cmd+'` you can switch between ``, "", and ''
-- 🔥 **Turbo Console Log**: Select a variable, then it will add a console log automatically. It can even delete all logs at once!
-  **Diff**: Open a diff with any given file against the current file
-- **Search - Open all results**: Open all files found
 - **Sort Package.json**: Automatically sort package.json
-- **Template String Converter**: Automatically convert to `` when adding `${` inside a string
 - **Typescript Explicit Types**: Automatically generates explicit types
-- **VSCode Sort json**: Sort json items
-- **File Utils**: To remove, rename, etc a file from command palette
-- **Smart Column Indenter**: To indent by columns
 - ⚙️ **Javascript Booster**: refactoring tools like convert from/to function to arrow function, and a lot more
 
 ### UI
 
-- 🔒 🔥 **Error Lens**: One of my MUST HAVE! Just display linting/ts errors in a very obvious way! Impossible to miss!
 - 🔒 🔥 **Angular Switcher**: Review the keybindings, as they let you quick change between styles, code, and templates.
 - 🔥 **Angular Follow Selector**: `cmd+click` para abrir el codigo del componente al que señala el selector que elijas en las templates.
-- **Open Matching Files**: Input a glob, and open all matching files in
-- **Peacock**: To colorize the vscode theme with a different color per technology/workspace
-- **Bracket Pair Colorizer**: Every bracket pair will have the same color!
-- **Color-Info**: Add color info when editing colors
-- **colorize**: Add colors to MUY Theme colors declaration
-- **empty-indent**: Removes empty indent on save
-- **Guides**: Better guidelines
-- ⚙️ **Image Preview**: Add a preview of the svg/img you are importing if the route is correct
-- ⚙️ **Output Colorizer**: Colorize vscode logs
 
 ## Configuration
 
